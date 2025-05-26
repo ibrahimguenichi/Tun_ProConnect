@@ -1,24 +1,67 @@
-# Compiled class file
-*.class
-
-# Log file
+# ----------------------
+# Global
+# ----------------------
+.DS_Store
+Thumbs.db
 *.log
+.env
+.env.local
+*.swp
 
-# BlueJ files
-*.ctxt
+# ----------------------
+# Java / Spring Boot
+# ----------------------
+/ProConnect/target/
+/ProConnect/.classpath
+/ProConnect/.project
+/ProConnect/.settings/
+/ProConnect/.idea/
+/ProConnect/*.iml
+/ProConnect/*.jar
+/ProConnect/*.war
 
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
+# Maven
+/ProConnect/logs
+/ProConnect/.mvn/
+/ProConnect/mvnw
+/ProConnect/mvnw.cmd
 
-# Package Files #
-*.jar
-*.war
-*.nar
-*.ear
-*.zip
-*.tar.gz
-*.rar
+# Gradle
+/ProConnect/build/
+/ProConnect/.gradle/
+/ProConnect/gradle-app.setting
+/ProConnect/gradlew
+/ProConnect/gradlew.bat
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
-replay_pid*
+# IntelliJ
+/ProConnect/out/
+
+# ----------------------
+# Node / Next.js
+# ----------------------
+/Frontend/node_modules/
+/Frontend/.next/
+/Frontend/.turbo/
+/Frontend/.vercel/
+/Frontend/package-lock.json
+/Frontend/yarn.lock
+/Frontend/pnpm-lock.yaml
+
+# Logs
+/Frontend/npm-debug.log*
+/Frontend/yarn-debug.log*
+/Frontend/yarn-error.log*
+
+# Vercel/Netlify
+.vercel
+.netlify
+
+# Next.js build output
+/Frontend/out/
+
+# ----------------------
+# OS Generated
+# ----------------------
+*.bak
+*.tmp
+*.orig
