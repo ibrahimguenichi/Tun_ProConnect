@@ -16,6 +16,13 @@ public class ApplicationProperties {
     private List<String> allowedOrigins;
     private String baseUrl;
     private String applicationName;
+    private String loginPageUrl;
+    private String loginSuccessUrl;
+    private String adminUserEmail;
+    private String adminUserPassword;
+    private String vapidPublicKey;
+    private String vapidPrivateKey;
+    private String vapidSubject;
 
     public ApplicationProperties() {
         this.database = new DatabaseConfiguration();
